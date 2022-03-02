@@ -1,0 +1,627 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    html,
+                    body {
+                        width: 100%;
+                        height: 100%;
+                        margin: 0px;
+                        padding: 0px;
+                        overflow-x: hidden;
+                    }
+                    /* Navbar */
+                    
+                    .navbar {
+                        margin: 3% 10%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .contact button {
+                        padding: 10px 18px;
+                        border-radius: 4px;
+                        background-color: #CEDEF4;
+                        border: none;
+                    }
+                    
+                    .contact button:hover {
+                        padding: 10px 15px;
+                        border-radius: 4px;
+                        background-color: #304eca;
+                        color: #efefef;
+                        border: none;
+                    }
+                    /* Navbar Ends */
+                    /*  Home Page Content  */
+                    
+                    .homepage-profile img {
+                        height: 70vh;
+                        float: right;
+                    }
+                    
+                    .homepage-content {
+                        margin: 8% 10%;
+                    }
+                    
+                    .logo {
+                        font-family: 'Sacramento', cursive;
+                        font-size: 38px;
+                        font-weight: 700;
+                    }
+                    
+                    .text-style1 {
+                        font-family: 'Nunito';
+                        font-size: 81px;
+                        font-weight: 500;
+                        font-style: normal;
+                        line-height: 1.27;
+                        letter-spacing: normal;
+                        color: #304eca;
+                    }
+                    
+                    .Hola {
+                        font-weight: normal;
+                        color: #161e30;
+                        /* font-family: 'Nunito'; */
+                        font-family: 'Alegreya', serif;
+                        font-size: 81px;
+                        font-style: normal;
+                        line-height: 1.27;
+                        letter-spacing: normal;
+                    }
+                    
+                    .content1 {
+                        /* width: 571px;
+     height: 28px; */
+                        /* margin: 31.6px 72px 52px 43px; */
+                        font-family: 'Nunito';
+                        font-size: 25px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.12;
+                        letter-spacing: normal;
+                        color: #161e30;
+                        padding: 20px 0;
+                    }
+                    
+                    .autoType {
+                        color: black;
+                        font-family: 'Nunito';
+                        font-size: 25px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 2;
+                        letter-spacing: normal;
+                        color: #161e30;
+                        padding: 30px 0;
+                    }
+                    
+                    .content2 {
+                        /* padding-top: 20px; */
+                        width: 800px;
+                        font-family: 'Nunito';
+                        font-size: 18px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.67;
+                        letter-spacing: normal;
+                        color: #595b5f;
+                    }
+                    
+                    .socials {
+                        padding-top: 20px;
+                    }
+                    
+                    .socials {
+                        display: flex;
+                    }
+                    
+                    .socials li {
+                        list-style: none;
+                        padding-right: 15px;
+                    }
+                    
+                    .socials img {
+                        /* padding: 0.4rem; */
+                        /* background-color: #efefef;
+    border-radius: 4%; */
+                        /* padding-right: 5px; */
+                        height: 36px;
+                        width: 36px;
+                    }
+                    
+                    .Rectangle {
+                        width: 80%;
+                        height: 1px;
+                        margin-top: 8%;
+                        margin-left: 10%;
+                        margin-right: 10%;
+                        opacity: 0.25;
+                        background-color: #989ca5;
+                    }
+                    /*  Home Page Content Ends*/
+                    /* About Page */
+                    
+                    .about {
+                        background-color: #efefef;
+                        padding: 40px 0;
+                        width: 100%;
+                    }
+                    
+                    .About,
+                    .Education,
+                    .skill-heading,
+                    .ach-heading,
+                    .vol-heading,
+                    .Co-curricular-heading {
+                        margin: 0 10%;
+                        font-family: 'Ubuntu';
+                        font-size: 45px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        /* line-height: 2.13; */
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        letter-spacing: normal;
+                        color: #161e30;
+                    }
+                    
+                    .About-Content {
+                        margin: 0 10%;
+                        opacity: 0.62;
+                        font-family: 'Nunito';
+                        font-size: 20px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.75;
+                        letter-spacing: normal;
+                        color: #161e30;
+                        padding-bottom: 20px;
+                    }
+                    
+                    .education {
+                        margin-top: 4%;
+                    }
+                    
+                    .edu {
+                        display: flex;
+                        margin: 0% 10%;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                    }
+                    
+                    .edu h3 {
+                        padding-bottom: 10px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: 500;
+                    }
+                    
+                    .college p,
+                    .school p {
+                        padding-bottom: 10px;
+                        opacity: 0.62;
+                        font-family: 'Nunito';
+                        font-size: 14px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1;
+                        letter-spacing: normal;
+                        color: #161e30;
+                    }
+                    
+                    .college,
+                    .school {
+                        /* border: 1px solid #efefef; */
+                        border-radius: 4px;
+                        padding: 40px 80px;
+                        margin-bottom: 30px;
+                        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                    }
+                    /* About Page Ends */
+                    /* Skills Page */
+                    
+                    .skill-heading,
+                    .ach-heading,
+                    .vol-heading,
+                    .Co-curricular-heading {
+                        margin-top: 4%;
+                    }
+                    
+                    .skill,
+                    .ach,
+                    .vol,
+                    .act {
+                        margin: 0% 10%;
+                    }
+                    
+                    .skill-image img {
+                        height: 350px;
+                        width: 400px;
+                        float: right;
+                        margin: 7% 10%;
+                    }
+                    
+                    .skill-name ul li {
+                        list-style: none;
+                        padding-bottom: 10px;
+                        /* opacity: 0.62; */
+                        font-family: 'Nunito';
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1;
+                        letter-spacing: normal;
+                        color: #161e30;
+                    }
+                    
+                    .skill-name ul li img {
+                        height: 60px;
+                        width: 60px;
+                        padding-right: 30px;
+                        padding-bottom: 20px;
+                    }
+                    
+                    .skill-name ul {
+                        display: flex;
+                        margin-bottom: 20px;
+                    }
+                    /* .softskills {
+    padding: 10px 0;
+} */
+                    
+                    .skill-name h3 {
+                        font-family: 'Inter', sans-serif;
+                        font-weight: 500;
+                        padding-bottom: 20px;
+                    }
+                    /* Skills Page Ends */
+                    /* Achievements Page */
+                    
+                    .ach {
+                        margin-bottom: 20px;
+                        /* border-radius: 4px; */
+                        /* padding: 40px 80px; */
+                        /* width: fit-content;
+    /* background-color: #D0E6FF; */
+                        /* background-color: #CEDEF4; */
+                        /* background-color: #B0A7F1; */
+                    }
+                    
+                    .ach h3,
+                    .vol h3 {
+                        /* padding-bottom: 10px; */
+                        font-family: 'Inter', sans-serif;
+                        font-weight: 500;
+                    }
+                    
+                    .ach p,
+                    .vol p {
+                        /* padding-bottom: 10px; */
+                        font-family: 'Nunito';
+                    }
+                    
+                    .ach p a {
+                        color: #000;
+                    }
+                    /* Achievements Page Ends*/
+                    /* Volunteering Page */
+                    
+                    .vol {
+                        margin-bottom: 20px;
+                    }
+                    
+                    .bg {
+                        padding: 40px 80px;
+                        margin: 0;
+                        background-color: #D7D1F8;
+                        background-color: #ebeaf3;
+                    }
+                    
+                    .act {
+                        /* font-family: 'Indie Flower', cursive; */
+                        font-family: 'Inter', sans-serif;
+                        font-weight: 500;
+                        display: flex;
+                        text-align: center;
+                        /* justify-content: center; */
+                        justify-content: space-around;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .act ul {
+                        display: flex;
+                        /* flex-wrap: wrap; */
+                    }
+                    
+                    .act ul li {
+                        list-style: none;
+                        text-align: center;
+                        padding: 0 50px;
+                    }
+                    
+                    .act ul li img {
+                        height: 130px;
+                        width: 130px;
+                        padding-bottom: 10px;
+                        border-radius: 50%;
+                    }
+                    /* Co-Curricular Activities Ends */
+                    
+                    .box {
+                        padding: 2% 0;
+                        text-align: center;
+                    }
+                    
+                    .box h2 {
+                        font-family: 'Ubuntu';
+                        font-size: 30px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        /* line-height: 2.13; */
+                        letter-spacing: normal;
+                        color: #161e30;
+                    }
+                    
+                    .box img {
+                        margin: 1rem;
+                        height: 36px;
+                    }
+                    /* Media Queries */
+                    /* ***************************************************************** */
+                    /* For Mobile Portrait View */
+                    
+                    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+                        .navbar {
+                            margin: 4% 10%;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        .contact button,
+                        .contact button:hover {
+                            padding: 8px 14px;
+                            font-size: 12px;
+                        }
+                        .logo {
+                            font-size: 25px;
+                        }
+                        .text-style1 {
+                            font-size: 30px;
+                        }
+                        .Hola {
+                            font-size: 30px;
+                        }
+                        .homepage-content {
+                            margin-top: 10%;
+                        }
+                        .homepage-profile img {
+                            height: 40vh;
+                            margin-top: 8%;
+                        }
+                        .content1 {
+                            font-size: 12px;
+                            padding: 0;
+                            font-weight: 400;
+                            line-height: 1.2;
+                            opacity: 0.9;
+                        }
+                        .content2 {
+                            font-size: 12px;
+                            line-height: 1.2;
+                            padding-bottom: 0;
+                        }
+                        .socials img {
+                            height: 24px;
+                            width: 24px;
+                            padding-top: 0;
+                        }
+                        .socials {
+                            padding-top: 5px;
+                        }
+                        .About-Content {
+                            font-size: 16px;
+                        }
+                        .About,
+                        .Education,
+                        .skill-heading,
+                        .ach-heading,
+                        .vol-heading,
+                        .Co-curricular-heading {
+                            font-size: 40px;
+                        }
+                        .education {
+                            margin-top: 4%;
+                        }
+                        .edu {
+                            display: flex;
+                            margin: 0% 10%;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                        }
+                        .edu h3 {
+                            font-size: 15px;
+                        }
+                        .college p,
+                        .school p {
+                            font-size: 12px;
+                        }
+                        .college,
+                        .school {
+                            padding: 30px;
+                            width: 250px;
+                        }
+                        .skill-image img {
+                            height: 150px;
+                            width: 200px;
+                            margin-right: 25%;
+                            padding-bottom: 30px;
+                        }
+                        .skill-name ul li img {
+                            height: 40px;
+                            width: 40px;
+                        }
+                        .skill-name h3 {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 350;
+                            padding-bottom: 12px;
+                        }
+                        .ach h3,
+                        .vol h3 {
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+                        .ach p,
+                        .vol p {
+                            font-family: 'Nunito';
+                            font-size: 14px;
+                        }
+                        .ach p a {
+                            font-size: 14px;
+                        }
+                        .bg {
+                            padding: 40px 20px;
+                            margin: 0;
+                        }
+                        .act ul li img {
+                            height: 55px;
+                            width: 55px;
+                            border-radius: 50%;
+                            display: inline;
+                        }
+                        .act ul li {
+                            list-style: none;
+                            text-align: center;
+                            font-size: 12px;
+                            padding: 0 5px;
+                        }
+                        .box img {
+                            margin: .5rem;
+                            height: 36px;
+                        }
+                        .act {
+                            font-weight: 400;
+                            display: flex;
+                            text-align: left;
+                            justify-content: space-around;
+                            margin-bottom: 30px;
+                            margin-left: 10px;
+                        }
+                    }
+                    /* For Tablet View */
+                    
+                    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                        .Hola {
+                            font-size: 60px;
+                        }
+                        .text-style1 {
+                            font-size: 60px;
+                        }
+                        .homepage-content {
+                            margin-top: 10%;
+                        }
+                        .homepage-profile img {
+                            height: 60vh;
+                            margin-top: 4%;
+                        }
+                        .content1 {
+                            font-size: 17px;
+                            padding: 10px 0;
+                            font-weight: 500;
+                            line-height: 1.2;
+                            /* opacity: 0.9; */
+                        }
+                        .content2 {
+                            font-size: 17px;
+                            line-height: 1.2;
+                            padding-bottom: 0;
+                        }
+                        .college,
+                        .school {
+                            padding: 30px;
+                            width: 500px;
+                        }
+                        .skill-image img {
+                            height: 280px;
+                            width: 300px;
+                            margin-right: 10%;
+                            margin-top: 28%;
+                        }
+                        .skill-name ul li img {
+                            height: 60px;
+                            width: 60px;
+                        }
+                        .skill-name h3 {
+                            font-weight: 350;
+                            padding-bottom: 12px;
+                        }
+                        .bg {
+                            padding: 40px 20px;
+                            margin: 0;
+                        }
+                        .act {
+                            font-weight: 400;
+                            display: flex;
+                            text-align: left;
+                            justify-content: space-around;
+                            text-align: center;
+                            margin-bottom: 30px;
+                            margin-left: 10px;
+                        }
+                        .act ul li img {
+                            height: 90px;
+                            width: 90px;
+                            border-radius: 50%;
+                            display: inline;
+                        }
+                        .act ul li {
+                            list-style: none;
+                            text-align: center;
+                            font-size: 12px;
+                            padding: 0 15px;
+                        }
+                    }
+                    /* For Desktop View */
+                    /*                     
+                    @media screen and (min-width: 1024px) {
+                        .homepage-profile img {
+                            height: 50vh;
+                            margin-top: -1%;
+                        }
+                        .skill-image img {
+                            height: 380px;
+                            width: 400px;
+                            margin-right: 10%;
+                            margin-top: 12%;
+                        }
+                        .act {
+                            font-weight: 500;
+                            display: flex;
+                            text-align: left;
+                            text-align: center;
+                            justify-content: space-around;
+                            margin-bottom: 30px;
+                            margin-left: 10px;
+                        }
+                        .act ul li img {
+                            height: 120px;
+                            width: 120px;
+                        }
+                        .act ul li {
+                            font-size: 14px;
+                            padding: 0 25px;
+                        }
+                    } */
