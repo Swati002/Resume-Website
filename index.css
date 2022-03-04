@@ -383,6 +383,14 @@
                     }
                     /* Media Queries */
                     /* ***************************************************************** */
+                       
+                    @media screen and (max-device-width: 767px) {
+                        .homepage-profile img {
+                            height: 40vh;
+                            margin-top: 8%;
+                            align-items: center;
+                        }
+                    }
                     /* For Mobile Portrait View */
                     
                     @media screen and (max-device-width: 480px) and (orientation: portrait) {
