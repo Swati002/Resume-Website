@@ -386,9 +386,9 @@
                        
                     @media screen and (max-device-width: 767px) {
                         .homepage-profile img {
-                            height: 40vh;
+                             height: 40vh;
                             margin-top: 8%;
-                            align-items: center;
+                            margin-right: 50px;
                         }
                     }
                     /* For Mobile Portrait View */
